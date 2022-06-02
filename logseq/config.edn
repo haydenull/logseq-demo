@@ -142,7 +142,9 @@
  ;; Add your own commands to speedup.
  ;; E.g. [["js" "Javascript"]]
  :commands
- []
+ [
+  ["agenda" "[2022-01-01](agenda-plugin://?start=2022-01-01)"]
+  ]
 
  ;; By default, a block can only be collapsed if it has some children.
  ;; `:outliner/block-title-collapse-enabled? true` enables a block with a title
@@ -174,6 +176,7 @@
  :ref/linked-references-collapsed-threshold 50
  :feature/enable-journals? false
  :default-home {:page "Dashboard"}
+ :favorites []
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5

@@ -18,3 +18,8 @@
 .content .block-properties:hover::after {
     content: "";
 }
+
+.external-link[href^="agenda-plugin://"]::before {
+  content: '📅';
+  margin: 0 4px;
+}

@@ -1,13 +1,8 @@
-- TODO task2
-  SCHEDULED: <2022-03-30 Wed>
-- TODO task3
-  SCHEDULED: <2022-03-15 Tue>
-- 开发完成 #milestone
-  SCHEDULED: <2022-03-30 Wed>
-- 联调完成 #milestone
-  SCHEDULED: <2022-03-31 Thu>
-- 提测 #milestone
-  SCHEDULED: <2022-04-04 Mon>
-- 上线 #milestone
-  SCHEDULED: <2022-04-07 Thu>
--
+agenda:: true
+
+- TODO project1-task1
+  start:: 2022-05-05 13:00
+  end:: 2022-05-05 14:00
+- TODO project1-task2
+  start:: 2022-05-05 15:30
+  end:: 2022-05-05 16:30
